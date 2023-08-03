@@ -1,0 +1,90 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "ftground:block/sulfur_fire_floor0"
+        },
+        {
+          "model": "ftground:block/sulfur_fire_floor1"
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "ftground:block/sulfur_fire_side0"
+        },
+        {
+          "model": "ftground:block/sulfur_fire_side1"
+        },
+        {
+          "model": "ftground:block/sulfur_fire_side_alt0"
+        },
+        {
+          "model": "ftground:block/sulfur_fire_side_alt1"
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "ftground:block/sulfur_fire_side0",
+          "y": 90
+        },
+        {
+          "model": "ftground:block/sulfur_fire_side1",
+          "y": 90
+        },
+        {
+          "model": "ftground:block/sulfur_fire_side_alt0",
+          "y": 90
+        },
+        {
+          "model": "ftground:block/sulfur_fire_side_alt1",
+          "y": 90
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "ftground:block/sulfur_fire_side0",
+          "y": 180
+        },
+        {
+          "model": "ftground:block/sulfur_fire_side1",
+          "y": 180
+        },
+        {
+          "model": "ftground:block/sulfur_fire_side_alt0",
+          "y": 180
+        },
+        {
+          "model": "ftground:block/sulfur_fire_side_alt1",
+          "y": 180
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "ftground:block/sulfur_fire_side0",
+          "y": 270
+        },
+        {
+          "model": "ftground:block/sulfur_fire_side1",
+          "y": 270
+        },
+        {
+          "model": "ftground:block/sulfur_fire_side_alt0",
+          "y": 270
+        },
+        {
+          "model": "ftground:block/sulfur_fire_side_alt1",
+          "y": 270
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "ftground:cobbled_andesite"
+  },
+  "result": "ftground:andesite"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xax",
+    "x x"
+  ],
+  "key":
+  {
+	"x":
+    {
+      "tag": "minecraft:planks"
+    },
+	"a":
+    {
+      "item": "minecraft:melon_slice"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:bat_box",
+    "count": 1
+  }
+}

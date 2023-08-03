@@ -1,0 +1,7 @@
+{
+  "parent": "ftground:block/copper_ore/deepslate",
+    "overrides": [
+	  { "predicate": { "ftground:rock_type": 7}, "model": "ftground:item/copper_ore/gneiss" },
+      { "predicate": { "ftground:rock_type": 10}, "model": "ftground:item/copper_ore/schist" }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "ftground:baking",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "minecraft:netherrack"
+  },
+  "result": "minecraft:nether_brick"
+}

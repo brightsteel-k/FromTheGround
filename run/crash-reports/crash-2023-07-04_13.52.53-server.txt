@@ -1,0 +1,133 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 7/4/23, 1:52 PM
+Description: Exception ticking world
+
+java.lang.IllegalArgumentException: Cannot set property IntegerProperty{name=level, clazz=class java.lang.Integer, values=[1, 2, 3, 4, 5, 6, 7, 8]} as it does not exist in Block{ftground:molten_saltpeter}
+	at net.minecraft.world.level.block.state.StateHolder.setValue(StateHolder.java:105) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at com.br1ghtsteel.ftground.fluids.MoltenSaltpeterFluid.checkForAdjacentGlass(MoltenSaltpeterFluid.java:160) ~[%23191!/:?] {re:classloading}
+	at com.br1ghtsteel.ftground.fluids.MoltenSaltpeterFluid.randomTick(MoltenSaltpeterFluid.java:83) ~[%23191!/:?] {re:classloading}
+	at net.minecraft.world.level.material.FluidState.randomTick(FluidState.java:88) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.level.block.LiquidBlock.randomTick(LiquidBlock.java:76) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B,xf:fml:forge:flowing_fluid_block}
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.randomTick(BlockBehaviour.java:697) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tickChunk(ServerLevel.java:445) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerChunkCache.tickChunks(ServerChunkCache.java:360) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:310) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:284) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:866) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:806) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:245) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.world.level.block.state.StateHolder.setValue(StateHolder.java:105) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at com.br1ghtsteel.ftground.fluids.MoltenSaltpeterFluid.checkForAdjacentGlass(MoltenSaltpeterFluid.java:160) ~[%23191!/:?] {re:classloading}
+	at com.br1ghtsteel.ftground.fluids.MoltenSaltpeterFluid.randomTick(MoltenSaltpeterFluid.java:83) ~[%23191!/:?] {re:classloading}
+	at net.minecraft.world.level.material.FluidState.randomTick(FluidState.java:88) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.level.block.LiquidBlock.randomTick(LiquidBlock.java:76) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B,xf:fml:forge:flowing_fluid_block}
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.randomTick(BlockBehaviour.java:697) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tickChunk(ServerLevel.java:445) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerChunkCache.tickChunks(ServerChunkCache.java:360) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:310) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:284) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayer['Dev'/40, l='ServerLevel[Unstable]', x=533.03, y=91.77, z=-59.13]]
+	Chunk stats: 2585
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (268,74,-49), Section: (at 12,10,15 in 16,4,-4; chunk contains blocks 256,-64,-64 to 271,319,-49), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Level time: 1120660 game time, 1053 day time
+	Level name: Unstable
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 43388 (now: false), thunder time: 15623 (now: false)
+	Known server brands: forge
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:866) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:806) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:245) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19
+	Minecraft Version ID: 1.19
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 441715064 bytes (421 MiB) / 1818230784 bytes (1734 MiB) up to 4255121408 bytes (4058 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 13
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 2.59
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 2060
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1f11
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.3179
+	Graphics card #1 name: Intel(R) UHD Graphics 630
+	Graphics card #1 vendor: Intel Corporation (0x8086)
+	Graphics card #1 VRAM (MB): 1024.00
+	Graphics card #1 deviceId: 0x3e9b
+	Graphics card #1 versionInfo: DriverVersion=31.0.101.2111
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.67
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 21349.49
+	Virtual memory used (MB): 16606.71
+	Swap memory total (MB): 5120.00
+	Swap memory used (MB): 687.30
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/40, l='ServerLevel[Unstable]', x=533.03, y=91.77, z=-59.13]]
+	Data Packs: vanilla, mod:forge, mod:ftground
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.0.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19-41.1.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19-41.1.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19-41.1.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19-41.1.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19-41.1.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.19-41.1.0_mapped_official_1.19-recomp.jar |Minecraft                     |minecraft                     |1.19                |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		                                                  |Forge                         |forge                         |41.1.0              |DONE      |Manifest: NOSIGNATURE
+		main                                              |From The Ground               |ftground                      |1.19.1-0.1.1        |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: cc113b88-2662-4895-96ea-98946e28a610
+	FML: 41.1
+	Forge: net.minecraftforge:41.1.0

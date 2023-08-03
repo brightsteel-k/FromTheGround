@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "ftground:blocks/amatol_end",
+    "side": "ftground:blocks/amatol_side"
+  }
+}

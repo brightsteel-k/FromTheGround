@@ -1,0 +1,57 @@
+modLoader="javafml" #mandatory
+
+# License
+license="MIT" #mandatory
+
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+
+# The modid of the mod
+modId="ftground" #mandatory
+
+version="1.19.1-0.1.1" #mandatory
+
+displayName="From The Ground" #mandatory
+
+# A URL to query for updates for this mod. See the JSON update specification <here>
+updateJSONURL="http://myurl.me/" #optional
+
+# A URL for the "homepage" for this mod, displayed in the mod UI
+displayURL="http://example.com/" #optional
+
+# A file name (in the root of the mod JAR) containing a logo for display
+logoFile="ftground_icon.png" #optional
+
+credits="Thanks to TechnoVision for helping me create my first mod!" #optional
+
+# A text field displayed in the mod UI
+authors="Br1ghtsteel" #optional
+
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+Whether you're building homes or demolishing houses, growing food or burning minerals, this mod helps you get a little more from the ground!
+'''
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.ftground]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[31,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.ftground]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,)"
+    ordering="NONE"
+    side="BOTH"

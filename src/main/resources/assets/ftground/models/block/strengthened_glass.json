@@ -1,0 +1,8 @@
+{
+    "parent": "ftground:block/ctm",
+    "textures": {
+        "all": "ftground:blocks/strengthened_glass",
+        "base": "ftground:blocks/strengthened_glass_borderless"
+    },
+    "render_type":"translucent"
+}

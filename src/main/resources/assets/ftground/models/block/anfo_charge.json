@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "ftground:blocks/anfo_charge_bottom",
+    "side": "ftground:blocks/anfo_charge_side",
+    "top": "ftground:blocks/anfo_charge_top"
+  }
+}

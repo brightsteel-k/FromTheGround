@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values":[
+		"ftground:bitumen_ore",
+		"ftground:iron_ore",
+		"ftground:deep_iron_ore",
+		"ftground:copper_ore",
+		"ftground:deep_copper_ore",
+		"ftground:lapis_ore",
+		"ftground:deep_lapis_ore"
+	]
+}

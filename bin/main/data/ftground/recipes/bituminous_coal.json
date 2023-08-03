@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    },
+	{
+      "item": "ftground:bitumen"
+    },
+	{
+      "item": "ftground:bitumen"
+    }
+  ],
+  "result":
+  {
+    "item": "ftground:bituminous_coal",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ftground:spirit_of_ammonium"
+    }
+  ],
+  "result":
+  {
+    "item": "ftground:ammonium_saltpeter",
+    "count": 1
+  }
+}

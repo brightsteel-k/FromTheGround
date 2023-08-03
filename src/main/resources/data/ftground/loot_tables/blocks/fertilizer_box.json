@@ -1,0 +1,193 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+	{
+	  "rolls": 1,
+	  "entries": [
+	  	{
+		  "type": "minecraft:item",
+		  "name": "ftground:fertilizer_box"
+		}
+	  ]
+	},
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ftground:saltpeter",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "ftground:fertilizer_box",
+                  "properties": {
+                    "level": "1"
+                  }
+                }
+              ]
+            },
+			{
+              "function": "minecraft:set_count",
+              "count": 2,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "ftground:fertilizer_box",
+                  "properties": {
+                    "level": "2"
+                  }
+                }
+              ]
+            },
+			{
+              "function": "minecraft:set_count",
+              "count": 3,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "ftground:fertilizer_box",
+                  "properties": {
+                    "level": "3"
+                  }
+                }
+              ]
+            },
+			{
+              "function": "minecraft:set_count",
+              "count": 4,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "ftground:fertilizer_box",
+                  "properties": {
+                    "level": "4"
+                  }
+                }
+              ]
+            },
+			{
+              "function": "minecraft:set_count",
+              "count": 5,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "ftground:fertilizer_box",
+                  "properties": {
+                    "level": "5"
+                  }
+                }
+              ]
+            },
+			{
+              "function": "minecraft:set_count",
+              "count": 6,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "ftground:fertilizer_box",
+                  "properties": {
+                    "level": "6"
+                  }
+                }
+              ]
+            },
+			{
+              "function": "minecraft:set_count",
+              "count": 7,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "ftground:fertilizer_box",
+                  "properties": {
+                    "level": "7"
+                  }
+                }
+              ]
+            },
+			{
+              "function": "minecraft:set_count",
+              "count": 8,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "ftground:fertilizer_box",
+                  "properties": {
+                    "level": "8"
+                  }
+                }
+              ]
+            },
+			{
+              "function": "minecraft:set_count",
+              "count": 9,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "ftground:fertilizer_box",
+                  "properties": {
+                    "level": "9"
+                  }
+                }
+              ]
+            },
+			{
+              "function": "minecraft:set_count",
+              "count": 10,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "ftground:fertilizer_box",
+                  "properties": {
+                    "level": "10"
+                  }
+                }
+              ]
+            },
+			{
+              "function": "minecraft:set_count",
+              "count": 11,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "ftground:fertilizer_box",
+                  "properties": {
+                    "level": "11"
+                  }
+                }
+              ]
+            },
+			{
+              "function": "minecraft:set_count",
+              "count": 12,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "ftground:fertilizer_box",
+                  "properties": {
+                    "level": "12"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:block_state_property",
+            "block": "ftground:fertilizer_box",
+            "properties": {
+              "level": "0"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

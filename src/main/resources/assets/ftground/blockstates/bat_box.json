@@ -1,0 +1,139 @@
+{
+  "variants": {
+    "facing=east,guano_level=0": {
+      "model": "ftground:block/bat_box",
+      "y": 90
+    },
+    "facing=east,guano_level=1": {
+      "model": "ftground:block/bat_box",
+      "y": 90
+    },
+    "facing=east,guano_level=2": {
+      "model": "ftground:block/bat_box",
+      "y": 90
+    },
+    "facing=east,guano_level=3": {
+      "model": "ftground:block/bat_box",
+      "y": 90
+    },
+    "facing=east,guano_level=4": {
+      "model": "ftground:block/bat_box",
+      "y": 90
+    },
+    "facing=east,guano_level=5": {
+      "model": "ftground:block/bat_box",
+      "y": 90
+    },
+    "facing=east,guano_level=6": {
+      "model": "ftground:block/bat_box",
+      "y": 90
+    },
+    "facing=east,guano_level=7": {
+      "model": "ftground:block/bat_box",
+      "y": 90
+    },
+    "facing=east,guano_level=8": {
+      "model": "ftground:block/bat_box_guano",
+      "y": 90
+    },
+    "facing=north,guano_level=0": {
+      "model": "ftground:block/bat_box"
+    },
+    "facing=north,guano_level=1": {
+      "model": "ftground:block/bat_box"
+    },
+    "facing=north,guano_level=2": {
+      "model": "ftground:block/bat_box"
+    },
+    "facing=north,guano_level=3": {
+      "model": "ftground:block/bat_box"
+    },
+    "facing=north,guano_level=4": {
+      "model": "ftground:block/bat_box"
+    },
+    "facing=north,guano_level=5": {
+      "model": "ftground:block/bat_box"
+    },
+    "facing=north,guano_level=6": {
+      "model": "ftground:block/bat_box"
+    },
+    "facing=north,guano_level=7": {
+      "model": "ftground:block/bat_box"
+    },
+    "facing=north,guano_level=8": {
+      "model": "ftground:block/bat_box_guano"
+    },
+    "facing=south,guano_level=0": {
+      "model": "ftground:block/bat_box",
+      "y": 180
+    },
+    "facing=south,guano_level=1": {
+      "model": "ftground:block/bat_box",
+      "y": 180
+    },
+    "facing=south,guano_level=2": {
+      "model": "ftground:block/bat_box",
+      "y": 180
+    },
+    "facing=south,guano_level=3": {
+      "model": "ftground:block/bat_box",
+      "y": 180
+    },
+    "facing=south,guano_level=4": {
+      "model": "ftground:block/bat_box",
+      "y": 180
+    },
+    "facing=south,guano_level=5": {
+      "model": "ftground:block/bat_box",
+      "y": 180
+    },
+    "facing=south,guano_level=6": {
+      "model": "ftground:block/bat_box",
+      "y": 180
+    },
+    "facing=south,guano_level=7": {
+      "model": "ftground:block/bat_box",
+      "y": 180
+    },
+    "facing=south,guano_level=8": {
+      "model": "ftground:block/bat_box_guano",
+      "y": 180
+    },
+    "facing=west,guano_level=0": {
+      "model": "ftground:block/bat_box",
+      "y": 270
+    },
+    "facing=west,guano_level=1": {
+      "model": "ftground:block/bat_box",
+      "y": 270
+    },
+    "facing=west,guano_level=2": {
+      "model": "ftground:block/bat_box",
+      "y": 270
+    },
+    "facing=west,guano_level=3": {
+      "model": "ftground:block/bat_box",
+      "y": 270
+    },
+    "facing=west,guano_level=4": {
+      "model": "ftground:block/bat_box",
+      "y": 270
+    },
+    "facing=west,guano_level=5": {
+      "model": "ftground:block/bat_box",
+      "y": 270
+    },
+    "facing=west,guano_level=6": {
+      "model": "ftground:block/bat_box",
+      "y": 270
+    },
+    "facing=west,guano_level=7": {
+      "model": "ftground:block/bat_box",
+      "y": 270
+    },
+    "facing=west,guano_level=8": {
+      "model": "ftground:block/bat_box_guano",
+      "y": 270
+    }
+  }
+}

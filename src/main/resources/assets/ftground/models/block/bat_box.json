@@ -1,0 +1,7 @@
+{
+  "parent": "ftground:block/template_bat_box",
+  "textures": {
+    "face": "ftground:blocks/bat_box_front"
+  },
+  "render_type":"cutout"
+}

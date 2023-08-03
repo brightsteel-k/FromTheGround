@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ftground:ammonium_saltpeter"
+    },
+    {
+      "item": "ftground:ammonium_saltpeter"
+    },
+    {
+      "item": "ftground:ammonium_saltpeter"
+    },
+    {
+      "item": "ftground:ammonium_saltpeter"
+    },
+    {
+      "item": "ftground:bitumen_fuel"
+    }
+  ],
+  "result":
+  {
+    "item": "ftground:anfo",
+    "count": 4
+  }
+}

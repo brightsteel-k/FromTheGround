@@ -1,0 +1,7 @@
+{
+  "parent": "ftground:block/template_ore",
+  "textures": {
+    "stone": "ftground:blocks/limestone",
+    "ore": "ftground:blocks/iron_ore"
+  }
+}

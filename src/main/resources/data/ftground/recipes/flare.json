@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "cx",
+    "lc"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "ftground:charcoal_dust"
+    },
+    "x":
+    {
+      "item": "ftground:saltpeter"
+    },
+	"l":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:flare",
+    "count": 3
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=east,powered=false,polarity=false": {
+      "model": "ftground:block/irregulator",
+      "y": 270
+    },
+    "facing=east,powered=false,polarity=true": {
+      "model": "ftground:block/irregulator",
+      "y": 270
+    },
+    "facing=east,powered=true,polarity=false": {
+      "model": "ftground:block/irregulator_on_0",
+      "y": 270
+    },
+    "facing=east,powered=true,polarity=true": {
+      "model": "ftground:block/irregulator_on_1",
+      "y": 270
+    },
+    "facing=north,powered=false,polarity=false": {
+      "model": "ftground:block/irregulator",
+      "y": 180
+    },
+    "facing=north,powered=false,polarity=true": {
+      "model": "ftground:block/irregulator",
+      "y": 180
+    },
+    "facing=north,powered=true,polarity=false": {
+      "model": "ftground:block/irregulator_on_0",
+      "y": 180
+    },
+    "facing=north,powered=true,polarity=true": {
+      "model": "ftground:block/irregulator_on_1",
+      "y": 180
+    },
+    "facing=south,powered=false,polarity=false": {
+      "model": "ftground:block/irregulator"
+    },
+    "facing=south,powered=false,polarity=true": {
+      "model": "ftground:block/irregulator"
+    },
+    "facing=south,powered=true,polarity=false": {
+      "model": "ftground:block/irregulator_on_0"
+    },
+    "facing=south,powered=true,polarity=true": {
+      "model": "ftground:block/irregulator_on_1"
+    },
+    "facing=west,powered=false,polarity=false": {
+      "model": "ftground:block/irregulator",
+      "y": 90
+    },
+    "facing=west,powered=false,polarity=true": {
+      "model": "ftground:block/irregulator",
+      "y": 90
+    },
+    "facing=west,powered=true,polarity=false": {
+      "model": "ftground:block/irregulator_on_0",
+      "y": 90
+    },
+    "facing=west,powered=true,polarity=true": {
+      "model": "ftground:block/irregulator_on_1",
+      "y": 90
+    }
+  }
+}

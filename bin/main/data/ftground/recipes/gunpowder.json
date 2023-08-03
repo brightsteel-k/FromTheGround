@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ftground:sulfur"
+    },
+	{
+      "item": "ftground:saltpeter"
+    },
+	{
+      "item": "ftground:charcoal_dust"
+    }
+  ],
+  "result":
+  {
+    "item": "minecraft:gunpowder",
+    "count": 2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "ftground:mixing",
+  "ingredient": {
+    "item": "ftground:bat_guano"
+  },
+  "base": {
+    "item": "ftground:nitric_acid"
+  },
+  "result": "ftground:spirit_of_ammonium"
+}

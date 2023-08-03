@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "ftground:block/sulfur_lantern"
+    },
+    "hanging=true": {
+      "model": "ftground:block/sulfur_lantern_hanging"
+    }
+  }
+}

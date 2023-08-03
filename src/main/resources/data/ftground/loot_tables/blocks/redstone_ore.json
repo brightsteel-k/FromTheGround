@@ -1,0 +1,179 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "ftground:redstone_ore",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:0}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:redstone_ore",
+                      "properties": {
+                        "rock_type": "stone"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:1}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:redstone_ore",
+                      "properties": {
+                        "rock_type": "andesite"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:2}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:redstone_ore",
+                      "properties": {
+                        "rock_type": "blackstone"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:4}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:redstone_ore",
+                      "properties": {
+                        "rock_type": "diorite"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:5}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:redstone_ore",
+                      "properties": {
+                        "rock_type": "granite"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:6}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:redstone_ore",
+                      "properties": {
+                        "rock_type": "dolerite"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:8}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:redstone_ore",
+                      "properties": {
+                        "rock_type": "lamprophyre"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:9}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:redstone_ore",
+                      "properties": {
+                        "rock_type": "limestone"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:11}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:redstone_ore",
+                      "properties": {
+                        "rock_type": "shale"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:redstone",
+              "functions": [
+				{
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 5.0,
+                    "min": 4.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "function": "minecraft:apply_bonus",
+                  "parameters": {
+                    "bonusMultiplier": 1
+                  }
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

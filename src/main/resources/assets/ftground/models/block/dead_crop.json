@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "ftground:blocks/dead_crop"
+  },
+  "render_type": "cutout"
+}

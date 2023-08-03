@@ -1,0 +1,7 @@
+{
+  "parent": "ftground:block/template_ore",
+  "textures": {
+    "stone": "minecraft:block/deepslate",
+    "ore": "ftground:blocks/emerald_ore"
+  }
+}

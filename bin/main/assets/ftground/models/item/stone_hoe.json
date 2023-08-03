@@ -1,0 +1,17 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "ftground:items/stone_hoe"
+    },
+    "overrides": [
+      { "predicate": { "custom_model_data": 1}, "model": "ftground:item/stone_tools/andesite_hoe" },
+      { "predicate": { "custom_model_data": 2}, "model": "ftground:item/stone_tools/blackstone_hoe" },
+      { "predicate": { "custom_model_data": 3}, "model": "ftground:item/stone_tools/deepslate_hoe" },
+      { "predicate": { "custom_model_data": 4}, "model": "ftground:item/stone_tools/diorite_hoe" },
+	  { "predicate": { "custom_model_data": 5}, "model": "ftground:item/stone_tools/granite_hoe" },
+	  { "predicate": { "custom_model_data": 6}, "model": "ftground:item/stone_tools/dolerite_hoe" },
+      { "predicate": { "custom_model_data": 8}, "model": "ftground:item/stone_tools/lamprophyre_hoe" },
+      { "predicate": { "custom_model_data": 10}, "model": "ftground:item/stone_tools/schist_hoe" },
+	  { "predicate": { "custom_model_data": 11}, "model": "ftground:item/stone_tools/shale_hoe" }
+    ]
+}

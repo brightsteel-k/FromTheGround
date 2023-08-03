@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "axa",
+    "xbx",
+    "axa"
+  ],
+  "key":
+  {
+	"b":
+    {
+      "item": "ftground:anfo_block"
+    },
+	"x":
+    {
+      "item": "minecraft:tnt"
+    },
+	"a":
+    {
+      "item": "ftground:anfo"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:amatol",
+    "count": 1
+  }
+}

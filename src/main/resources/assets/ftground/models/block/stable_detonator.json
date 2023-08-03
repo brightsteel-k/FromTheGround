@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "ftground:blocks/stable_detonator_end",
+    "side": "ftground:blocks/stable_detonator_side"
+  }
+}

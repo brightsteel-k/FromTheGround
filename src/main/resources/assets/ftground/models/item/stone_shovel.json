@@ -1,0 +1,19 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "ftground:items/stone_shovel"
+    },
+    "overrides": [
+      { "predicate": { "ftground:rock_type": 1}, "model": "ftground:item/stone_tools/andesite_shovel" },
+      { "predicate": { "ftground:rock_type": 2}, "model": "ftground:item/stone_tools/blackstone_shovel" },
+      { "predicate": { "ftground:rock_type": 3}, "model": "ftground:item/stone_tools/deepslate_shovel" },
+      { "predicate": { "ftground:rock_type": 4}, "model": "ftground:item/stone_tools/diorite_shovel" },
+	  { "predicate": { "ftground:rock_type": 5}, "model": "ftground:item/stone_tools/granite_shovel" },
+	  { "predicate": { "ftground:rock_type": 6}, "model": "ftground:item/stone_tools/dolerite_shovel" },
+	  { "predicate": { "ftground:rock_type": 7}, "model": "ftground:item/stone_tools/gneiss_shovel" },
+      { "predicate": { "ftground:rock_type": 8}, "model": "ftground:item/stone_tools/lamprophyre_shovel" },
+      { "predicate": { "ftground:rock_type": 9}, "model": "ftground:item/stone_tools/limestone_shovel" },
+      { "predicate": { "ftground:rock_type": 10}, "model": "ftground:item/stone_tools/schist_shovel" },
+	  { "predicate": { "ftground:rock_type": 11}, "model": "ftground:item/stone_tools/shale_shovel" }
+    ]
+}

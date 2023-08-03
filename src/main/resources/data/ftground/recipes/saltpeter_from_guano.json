@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ftground:bat_guano"
+    }
+  ],
+  "result":
+  {
+    "item": "ftground:saltpeter",
+    "count": 5
+  }
+}

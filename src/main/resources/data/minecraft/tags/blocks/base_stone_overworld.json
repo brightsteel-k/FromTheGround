@@ -1,0 +1,17 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:stone",
+    "ftground:andesite",
+    "minecraft:deepslate",
+    "ftground:diorite",
+    "ftground:granite",
+	"ftground:dolerite",
+	"ftground:gneiss",
+	"ftground:lamprophyre",
+	"ftground:limestone",
+	"ftground:shale",
+	"ftground:schist",
+    "minecraft:tuff"
+  ]
+}

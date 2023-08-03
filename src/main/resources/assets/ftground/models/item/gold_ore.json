@@ -1,0 +1,13 @@
+{
+  "parent": "ftground:block/gold_ore/stone",
+    "overrides": [
+      { "predicate": { "ftground:rock_type": 1}, "model": "ftground:item/gold_ore/andesite" },
+      { "predicate": { "ftground:rock_type": 2}, "model": "ftground:item/gold_ore/blackstone" },
+      { "predicate": { "ftground:rock_type": 4}, "model": "ftground:item/gold_ore/diorite" },
+	  { "predicate": { "ftground:rock_type": 5}, "model": "ftground:item/gold_ore/granite" },
+	  { "predicate": { "ftground:rock_type": 6}, "model": "ftground:item/gold_ore/dolerite" },
+      { "predicate": { "ftground:rock_type": 8}, "model": "ftground:item/gold_ore/lamprophyre" },
+      { "predicate": { "ftground:rock_type": 9}, "model": "ftground:item/gold_ore/limestone" },
+	  { "predicate": { "ftground:rock_type": 11}, "model": "ftground:item/gold_ore/shale" }
+    ]
+}

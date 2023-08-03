@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values":[
+		"ftground:sulfur",
+		"ftground:saltpeter",
+		"ftground:bitumen_tar",
+		"ftground:bat_guano",
+		"ftground:limestone_powder"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values":[
+		"ftground:gold_ore",
+		"ftground:deep_gold_ore",
+		"ftground:diamond_ore",
+		"ftground:deep_diamond_ore",
+		"ftground:redstone_ore",
+		"ftground:deep_redstone_ore",
+		"ftground:emerald_ore",
+		"ftground:deep_emerald_ore"
+	]
+}

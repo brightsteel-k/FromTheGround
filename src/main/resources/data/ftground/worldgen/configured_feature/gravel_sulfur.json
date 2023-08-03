@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "half_height": 2,
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_inclusive": 4,
+        "min_inclusive": 2
+      }
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:weighted_state_provider",
+        "entries":
+        [
+          {
+            "data":
+            {
+              "Name": "ftground:shale_gravel"
+            },
+            "weight": 9
+          },
+          {
+            "data":
+            {
+              "Name": "ftground:sulfur_ore"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      "rules": []
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "ftground:shale",
+		"ftground:shale_gravel"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xcx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "ftground:clay_brick"
+    },
+	"c":
+    {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:kiln",
+    "count": 1
+  }
+}

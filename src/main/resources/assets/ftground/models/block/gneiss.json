@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "ftground:blocks/gneiss_top",
+    "side": "ftground:blocks/gneiss"
+  }
+}

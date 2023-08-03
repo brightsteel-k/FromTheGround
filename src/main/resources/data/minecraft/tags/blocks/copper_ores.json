@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:copper_ore",
+    "ftground:deep_copper_ore"
+  ]
+}

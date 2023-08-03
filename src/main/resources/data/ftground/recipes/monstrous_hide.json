@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "ftground:saltpeter"
+    },
+    {
+      "item": "ftground:saltpeter"
+    },
+    {
+      "item": "ftground:saltpeter"
+    }
+  ],
+  "result":
+  {
+    "item": "ftground:monstrous_hide",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "ftground:block/ground_flare"
+    },
+    "facing=north": {
+      "model": "ftground:block/ground_flare",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "ftground:block/ground_flare",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "ftground:block/ground_flare",
+      "y": 180
+    }
+  }
+}

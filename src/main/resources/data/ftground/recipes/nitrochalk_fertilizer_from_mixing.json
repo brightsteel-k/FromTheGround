@@ -1,0 +1,10 @@
+{
+  "type": "ftground:mixing",
+  "ingredient": {
+    "item": "ftground:limestone_powder"
+  },
+  "base": {
+    "item": "ftground:spirit_of_ammonium"
+  },
+  "result": "ftground:nitrochalk_fertilizer"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "rock_type=deepslate": {
+      "model": "ftground:block/copper_ore/deepslate"
+    },
+	"rock_type=gneiss": {
+      "model": "ftground:block/copper_ore/gneiss"
+    },
+	"rock_type=schist": {
+      "model": "ftground:block/copper_ore/schist"
+    }
+  }
+}

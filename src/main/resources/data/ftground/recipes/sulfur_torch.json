@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "i"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "ftground:sulfur"
+    },
+	"i":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:sulfur_torch",
+    "count": 4
+  }
+}

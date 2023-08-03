@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "uiu",
+    "uiu"
+  ],
+  "key":
+  {
+    "u":
+    {
+      "tag": "minecraft:wooden_slabs"
+    },
+	"i":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:fertilizer_box",
+    "count": 1
+  }
+}

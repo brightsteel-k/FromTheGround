@@ -1,0 +1,14 @@
+{
+  "values": [
+	"minecraft:gravel",
+	"ftground:andesite_gravel",
+	"ftground:diorite_gravel",
+	"ftground:granite_gravel",
+	"ftground:dolerite_gravel",
+	"ftground:gneiss_gravel",
+	"ftground:lamprophyre_gravel",
+	"ftground:limestone_gravel",
+	"ftground:schist_gravel",
+	"ftground:shale_gravel"
+  ]
+}

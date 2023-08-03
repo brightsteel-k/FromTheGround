@@ -1,0 +1,7 @@
+{
+  "parent": "ftground:block/template_flare",
+  "textures": {
+    "flare": "ftground:blocks/flare"
+  },
+  "render_type":"cutout"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ftground:ammonium_saltpeter_block"
+    }
+  ],
+  "result":
+  {
+    "item": "ftground:ammonium_saltpeter",
+    "count": 9
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "iii",
+    "ixi",
+    " x "
+  ],
+  "key":
+  {
+	"i":
+	{
+		"item": "minecraft:iron_ingot"
+	},
+    "x":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:hammer",
+    "count": 1
+	
+  }
+}

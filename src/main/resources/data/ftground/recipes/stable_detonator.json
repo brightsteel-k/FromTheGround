@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "oxo",
+    "xax",
+    "oxo"
+  ],
+  "key":
+  {
+	"a":
+    {
+      "item": "ftground:amatol"
+    },
+	"x":
+    {
+      "item": "ftground:ammonium_saltpeter_block"
+    },
+	"o":
+    {
+      "item": "ftground:bitumen_tar"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:stable_detonator",
+    "count": 1
+  }
+}

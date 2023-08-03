@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:grass_block",
+	"minecraft:grass",
+	"#minecraft:tall_flowers",
+	"#minecraft:saplings",
+	"#minecraft:mushroom_grow_block",
+	"minecraft:red_mushroom",
+	"minecraft:brown_mushroom",
+	"minecraft:sweet_berry_bush",
+	"minecraft:kelp",
+	"minecraft:small_dripleaf",
+	"minecraft:big_dripleaf",
+	"minecraft:moss_block"
+  ]
+}

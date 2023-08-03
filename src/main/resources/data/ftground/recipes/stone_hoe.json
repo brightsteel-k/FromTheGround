@@ -1,0 +1,19 @@
+{
+  "type": "ftground:crafting_special_stonetool",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:stone_crafting_materials"
+    }
+  },
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "result": {
+    "item": "ftground:stone_hoe"
+  }
+}

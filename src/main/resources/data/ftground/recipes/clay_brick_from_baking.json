@@ -1,0 +1,9 @@
+{
+  "type": "ftground:baking",
+  "cookingtime": 80,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "minecraft:clay_ball"
+  },
+  "result": "ftground:clay_brick"
+}

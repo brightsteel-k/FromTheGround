@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "result":
+  {
+    "item": "ftground:charcoal_dust",
+    "count": 3
+  }
+}

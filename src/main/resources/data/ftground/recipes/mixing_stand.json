@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "GBG",
+    "###"
+  ],
+  "key":
+  {
+    "G":
+    {
+      "item": "ftground:strengthened_glass"
+    },
+	"B":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+	"#":
+    {
+      "tag": "minecraft:stone_crafting_materials"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:mixing_stand",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx ",
+    "xf ",
+    "  x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:string"
+    },
+	"f":
+    {
+      "item": "ftground:tar_ball"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:lead",
+    "count": 2
+  }
+}

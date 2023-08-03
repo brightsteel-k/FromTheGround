@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:creeper",
+	"minecraft:tnt",
+	"minecraft:tnt_minecart",
+	"minecraft:fireball",
+	"minecraft:ghast",
+	"minecraft:wither"
+  ]
+}

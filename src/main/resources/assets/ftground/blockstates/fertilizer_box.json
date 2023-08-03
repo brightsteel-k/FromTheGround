@@ -1,0 +1,105 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box"
+      }
+    },
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box_contents1"
+      },
+      "when": {
+        "level": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box_contents2"
+      },
+      "when": {
+        "level": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box_contents3"
+      },
+      "when": {
+        "level": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box_contents4"
+      },
+      "when": {
+        "level": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box_contents5"
+      },
+      "when": {
+        "level": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box_contents6"
+      },
+      "when": {
+        "level": "6"
+      }
+    },
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box_contents7"
+      },
+      "when": {
+        "level": "7"
+      }
+    },
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box_contents8"
+      },
+      "when": {
+        "level": "8"
+      }
+    },
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box_contents9"
+      },
+      "when": {
+        "level": "9"
+      }
+    },
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box_contents10"
+      },
+      "when": {
+        "level": "10"
+      }
+    },
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box_contents11"
+      },
+      "when": {
+        "level": "11"
+      }
+    },
+    {
+      "apply": {
+        "model": "ftground:block/fertilizer_box_contents12"
+      },
+      "when": {
+        "level": "12"
+      }
+    }
+  ]
+}

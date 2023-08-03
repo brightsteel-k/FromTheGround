@@ -1,0 +1,10 @@
+{
+  "type": "ftground:mixing",
+  "ingredient": {
+    "item": "ftground:bitumen_tar"
+  },
+  "base": {
+    "item": "minecraft:potion"
+  },
+  "result": "ftground:bitumen_fuel"
+}

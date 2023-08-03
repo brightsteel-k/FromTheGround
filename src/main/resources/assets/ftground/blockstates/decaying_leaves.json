@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "decaying=true": {
+      "model": "ftground:block/decaying_leaves"
+    },
+    "decaying=false": {
+      "model": "ftground:block/decaying_leaves"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "ftground:bituminous_coal"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:bituminous_coal_block",
+    "count": 1
+  }
+}

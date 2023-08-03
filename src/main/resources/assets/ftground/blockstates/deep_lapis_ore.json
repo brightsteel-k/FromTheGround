@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "rock_type=deepslate": {
+      "model": "ftground:block/lapis_ore/deepslate"
+    },
+	"rock_type=gneiss": {
+      "model": "ftground:block/lapis_ore/gneiss"
+    },
+	"rock_type=schist": {
+      "model": "ftground:block/lapis_ore/schist"
+    }
+  }
+}

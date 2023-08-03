@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values":[
+		"ftground:dessicated_farmland",
+		"minecraft:farmland"
+	]
+}

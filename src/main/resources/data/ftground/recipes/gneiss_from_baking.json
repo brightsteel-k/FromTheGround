@@ -1,0 +1,9 @@
+{
+  "type": "ftground:baking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "ftground:cobbled_gneiss"
+  },
+  "result": "ftground:gneiss"
+}

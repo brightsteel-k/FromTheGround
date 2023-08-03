@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cobblestone",
+    "minecraft:blackstone",
+    "ftground:cobbled_andesite",
+    "ftground:cobbled_diorite",
+    "ftground:cobbled_granite",
+    "ftground:cobbled_dolerite",
+	"ftground:cobbled_limestone",
+	"ftground:cobbled_lamprophyre",
+	"ftground:cobbled_shale",
+	"ftground:cobbled_schist"
+  ]
+}

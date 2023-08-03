@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "oio",
+    "xix",
+    "oao"
+  ],
+  "key":
+  {
+	"o":
+    {
+      "item": "minecraft:obsidian"
+    },
+	"i":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+	"x":
+    {
+      "item": "ftground:anfo"
+    },
+	"a":
+    {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:blasting_cap",
+    "count": 1
+  }
+}

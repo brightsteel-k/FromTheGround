@@ -1,0 +1,167 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "ftground:coal_ore",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:0}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:coal_ore",
+                      "properties": {
+                        "rock_type": "stone"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:1}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:coal_ore",
+                      "properties": {
+                        "rock_type": "andesite"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:2}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:coal_ore",
+                      "properties": {
+                        "rock_type": "blackstone"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:4}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:coal_ore",
+                      "properties": {
+                        "rock_type": "diorite"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:5}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:coal_ore",
+                      "properties": {
+                        "rock_type": "granite"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:6}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:coal_ore",
+                      "properties": {
+                        "rock_type": "dolerite"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:8}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:coal_ore",
+                      "properties": {
+                        "rock_type": "lamprophyre"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:9}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:coal_ore",
+                      "properties": {
+                        "rock_type": "limestone"
+                      }
+                    }
+                  ]
+                },
+				{
+                  "function": "minecraft:set_nbt",
+                  "tag": "{RockType:11}",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "ftground:coal_ore",
+                      "properties": {
+                        "rock_type": "shale"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:coal",
+              "functions": [
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

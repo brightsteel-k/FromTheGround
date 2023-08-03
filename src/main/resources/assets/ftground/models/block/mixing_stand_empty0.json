@@ -1,0 +1,18 @@
+{
+	"credit": "Made with Blockbench",
+	"render_type": "cutout",
+	"textures": {
+		"particle": "ftground:blocks/mixing_stand",
+		"stand": "ftground:blocks/mixing_stand"
+	},
+	"elements": [
+		{
+			"from": [9, 0, 8],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [16, 0, 9, 16], "texture": "#stand"},
+				"south": {"uv": [9, 0, 16, 16], "texture": "#stand"}
+			}
+		}
+	]
+}

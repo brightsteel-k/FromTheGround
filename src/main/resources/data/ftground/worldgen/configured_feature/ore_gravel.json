@@ -1,0 +1,99 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 33,
+    "targets": [
+      {
+        "state": {
+          "Name": "minecraft:gravel"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:stone"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:andesite_gravel"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:andesite"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:diorite_gravel"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:diorite"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:granite_gravel"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:granite"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:dolerite_gravel"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:dolerite"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:lamprophyre_gravel"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:lamprophyre"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:limestone_gravel"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:limestone"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:shale_gravel"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:shale"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:gneiss_gravel"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:gneiss"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:schist_gravel"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:schist"
+        }
+      }
+    ]
+  }
+}

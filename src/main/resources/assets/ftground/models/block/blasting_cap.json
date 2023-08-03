@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_directional",
+  "textures": {
+	"particle": "ftground:blocks/blasting_cap_side",
+    "north": "ftground:blocks/blasting_cap_front",
+    "east": "ftground:blocks/blasting_cap_side",
+    "south": "ftground:blocks/blasting_cap_back",
+    "west": "ftground:blocks/blasting_cap_side",
+    "up": "ftground:blocks/blasting_cap_side",
+    "down": "ftground:blocks/blasting_cap_side"
+  }
+}

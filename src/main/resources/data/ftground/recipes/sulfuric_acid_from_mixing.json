@@ -1,0 +1,9 @@
+{
+  "type": "ftground:acid_mixing",
+  "ingredient": {
+    "item": "ftground:sulfur"
+  },
+  "base": {
+    "item": "ftground:sulfuric_acid"
+  }
+}

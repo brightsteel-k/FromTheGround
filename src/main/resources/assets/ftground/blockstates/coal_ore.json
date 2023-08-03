@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "rock_type=stone": {
+      "model": "ftground:block/coal_ore/stone"
+    },
+	"rock_type=andesite": {
+      "model": "ftground:block/coal_ore/andesite"
+    },
+	"rock_type=blackstone": {
+      "model": "ftground:block/coal_ore/blackstone"
+    },
+	"rock_type=diorite": {
+      "model": "ftground:block/coal_ore/diorite"
+    },
+	"rock_type=granite": {
+      "model": "ftground:block/coal_ore/granite"
+    },
+	"rock_type=dolerite": {
+      "model": "ftground:block/coal_ore/dolerite"
+    },
+	"rock_type=lamprophyre": {
+      "model": "ftground:block/coal_ore/lamprophyre"
+    },
+	"rock_type=limestone": {
+      "model": "ftground:block/coal_ore/limestone"
+    },
+	"rock_type=shale": {
+      "model": "ftground:block/coal_ore/shale"
+    }
+  }
+}

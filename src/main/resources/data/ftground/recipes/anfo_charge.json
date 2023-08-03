@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "gxg",
+    "xgx",
+    "gxg"
+  ],
+  "key":
+  {
+    "g":
+    {
+      "tag": "minecraft:gravel_crafting_materials"
+    },
+	"x":
+    {
+      "item": "ftground:anfo"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:anfo_charge",
+    "count": 1
+  }
+}

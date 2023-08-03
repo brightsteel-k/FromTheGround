@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "ftground:block/blasting_cap",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "ftground:block/blasting_cap"
+    },
+    "facing=south": {
+      "model": "ftground:block/blasting_cap",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ftground:block/blasting_cap",
+      "y": 270
+    }
+  }
+}

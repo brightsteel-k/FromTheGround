@@ -1,0 +1,153 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 9,
+    "targets": [
+      {
+        "state": {
+          "Name": "ftground:iron_ore",
+          "Properties": {
+            "rock_type": "stone"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:stone"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:iron_ore",
+          "Properties": {
+            "rock_type": "andesite"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:andesite"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:iron_ore",
+          "Properties": {
+            "rock_type": "blackstone"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:blackstone"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:iron_ore",
+          "Properties": {
+            "rock_type": "diorite"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:diorite"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:iron_ore",
+          "Properties": {
+            "rock_type": "granite"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:granite"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:iron_ore",
+          "Properties": {
+            "rock_type": "dolerite"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:dolerite"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:iron_ore",
+          "Properties": {
+            "rock_type": "lamprophyre"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:lamprophyre"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:iron_ore",
+          "Properties": {
+            "rock_type": "limestone"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:limestone"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:iron_ore",
+          "Properties": {
+            "rock_type": "shale"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:shale"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:deep_iron_ore",
+          "Properties": {
+            "rock_type": "deepslate"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:deepslate"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:deep_iron_ore",
+          "Properties": {
+            "rock_type": "gneiss"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:gneiss"
+        }
+      },
+      {
+        "state": {
+          "Name": "ftground:deep_iron_ore",
+          "Properties": {
+            "rock_type": "schist"
+          }
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ftground:schist"
+        }
+      }
+    ]
+  }
+}

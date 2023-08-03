@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    "ixi",
+    "sss"
+  ],
+  "key":
+  {
+	"s":
+    {
+      "tag": "minecraft:smooth_stone_crafting_materials"
+    },
+	"i":
+    {
+      "item": "minecraft:redstone_torch"
+    },
+	"x":
+    {
+      "item": "ftground:saltpeter"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:irregulator",
+    "count": 1
+  }
+}

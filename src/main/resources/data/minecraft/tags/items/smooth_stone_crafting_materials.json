@@ -1,0 +1,14 @@
+{
+  "values": [
+	"minecraft:stone",
+	"ftground:andesite",
+	"ftground:diorite",
+	"ftground:granite",
+	"ftground:dolerite",
+	"ftground:gneiss",
+	"ftground:lamprophyre",
+	"ftground:limestone",
+	"ftground:schist",
+	"ftground:shale"
+  ]
+}

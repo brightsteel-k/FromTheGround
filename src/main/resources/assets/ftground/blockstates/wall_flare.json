@@ -1,0 +1,38 @@
+{
+  "variants": {
+    "facing=east,upside_down=true": {
+      "model": "ftground:block/wall_flare",
+	  "x": 180
+    },
+	"facing=east,upside_down=false": {
+      "model": "ftground:block/wall_flare"
+    },
+    "facing=north,upside_down=true": {
+      "model": "ftground:block/wall_flare",
+      "y": 270,
+	  "x": 180
+    },
+	"facing=north,upside_down=false": {
+      "model": "ftground:block/wall_flare",
+      "y": 270
+    },
+    "facing=south,upside_down=true": {
+      "model": "ftground:block/wall_flare",
+      "y": 90,
+	  "x": 180
+    },
+	"facing=south,upside_down=false": {
+      "model": "ftground:block/wall_flare",
+      "y": 90
+    },
+    "facing=west,upside_down=true": {
+      "model": "ftground:block/wall_flare",
+      "y": 180,
+	  "x": 180
+    },
+	"facing=west,upside_down=false": {
+      "model": "ftground:block/wall_flare",
+      "y": 180
+    }
+  }
+}

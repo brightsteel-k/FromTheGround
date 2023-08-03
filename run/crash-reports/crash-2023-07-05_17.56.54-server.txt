@@ -1,0 +1,174 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 7/5/23, 5:56 PM
+Description: Ticking entity
+
+java.lang.IllegalArgumentException: Can't find attribute minecraft:generic.flying_speed
+	at net.minecraft.world.entity.ai.attributes.AttributeSupplier.getAttributeInstance(AttributeSupplier.java:21) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.ai.attributes.AttributeSupplier.getValue(AttributeSupplier.java:28) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.ai.attributes.AttributeMap.getValue(AttributeMap.java:65) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.LivingEntity.getAttributeValue(LivingEntity.java:1851) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.ai.control.FlyingMoveControl.tick(FlyingMoveControl.java:37) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:721) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:2543) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:501) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:117) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.animal.Animal.aiStep(Animal.java:53) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at com.br1ghtsteel.ftground.entity_types.Bat.aiStep(Bat.java:254) ~[%23191!/:?] {re:classloading}
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2290) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.Mob.tick(Mob.java:313) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at com.br1ghtsteel.ftground.entity_types.Bat.tick(Bat.java:151) ~[%23191!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:657) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:457) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.lambda$tick$3(ServerLevel.java:322) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:302) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:866) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:806) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:245) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.world.entity.ai.attributes.AttributeSupplier.getAttributeInstance(AttributeSupplier.java:21) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.ai.attributes.AttributeSupplier.getValue(AttributeSupplier.java:28) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.ai.attributes.AttributeMap.getValue(AttributeMap.java:65) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.LivingEntity.getAttributeValue(LivingEntity.java:1851) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.ai.control.FlyingMoveControl.tick(FlyingMoveControl.java:37) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:721) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:2543) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:501) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:117) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.animal.Animal.aiStep(Animal.java:53) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at com.br1ghtsteel.ftground.entity_types.Bat.aiStep(Bat.java:254) ~[%23191!/:?] {re:classloading}
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2290) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.world.entity.Mob.tick(Mob.java:313) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at com.br1ghtsteel.ftground.entity_types.Bat.tick(Bat.java:151) ~[%23191!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:657) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:457) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.lambda$tick$3(ServerLevel.java:322) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:302) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+-- Entity being ticked --
+Details:
+	Entity Type: ftground:bat (com.br1ghtsteel.ftground.entity_types.Bat)
+	Entity ID: 547
+	Entity Name: entity.ftground.bat
+	Entity's Exact location: 433.26, 76.12, 108.59
+	Entity's Block location: World: (433,76,108), Section: (at 1,12,12 in 27,4,6; chunk contains blocks 432,-64,96 to 447,319,111), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Entity's Momentum: 0.00, -0.11, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:457) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.lambda$tick$3(ServerLevel.java:322) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:302) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:866) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:806) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:245) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayer['Dev'/84, l='ServerLevel[Unstable]', x=434.62, y=74.27, z=111.78]]
+	Chunk stats: 3458
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (268,74,-49), Section: (at 12,10,15 in 16,4,-4; chunk contains blocks 256,-64,-64 to 271,319,-49), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Level time: 1144818 game time, 1053 day time
+	Level name: Unstable
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 19230 (now: false), thunder time: 6210 (now: true)
+	Known server brands: forge
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:866) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:806) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:245) ~[forge-1.19-41.1.0_mapped_official_1.19-recomp.jar%23186!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19
+	Minecraft Version ID: 1.19
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1748919400 bytes (1667 MiB) / 3080716288 bytes (2938 MiB) up to 4255121408 bytes (4058 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 13
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 2.59
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 2060
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1f11
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.3179
+	Graphics card #1 name: Intel(R) UHD Graphics 630
+	Graphics card #1 vendor: Intel Corporation (0x8086)
+	Graphics card #1 VRAM (MB): 1024.00
+	Graphics card #1 deviceId: 0x3e9b
+	Graphics card #1 versionInfo: DriverVersion=31.0.101.2111
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.67
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 24457.39
+	Virtual memory used (MB): 21505.68
+	Swap memory total (MB): 8227.89
+	Swap memory used (MB): 1236.31
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/84, l='ServerLevel[Unstable]', x=434.62, y=74.27, z=111.78]]
+	Data Packs: vanilla, mod:forge, mod:ftground
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.0.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19-41.1.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19-41.1.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19-41.1.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19-41.1.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19-41.1.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.19-41.1.0_mapped_official_1.19-recomp.jar |Minecraft                     |minecraft                     |1.19                |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		                                                  |Forge                         |forge                         |41.1.0              |DONE      |Manifest: NOSIGNATURE
+		main                                              |From The Ground               |ftground                      |1.19.1-0.1.1        |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 18a6a59f-8201-436e-afe5-39d6f60f81f8
+	FML: 41.1
+	Forge: net.minecraftforge:41.1.0

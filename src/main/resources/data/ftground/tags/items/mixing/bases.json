@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values":[
+		"minecraft:potion",
+		"minecraft:splash_potion",
+		"minecraft:glass_bottle",
+		"ftground:sulfuric_acid",
+		"ftground:nitric_acid",
+		"ftground:bitumen_fuel",
+		"ftground:spirit_of_ammonium",
+		"ftground:nitrochalk_fertilizer"
+	]
+}

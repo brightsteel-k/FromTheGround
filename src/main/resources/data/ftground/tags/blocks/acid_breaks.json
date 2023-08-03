@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+	"#ftground:infested_blocks",
+	"#ftground:gravel",
+	"#minecraft:tall_flowers",
+	"minecraft:tall_grass",
+	"minecraft:grass",
+	"minecraft:tall_seagrass",
+	"minecraft:seagrass",
+	"minecraft:large_fern",
+	"minecraft:fern",
+	"minecraft:sweet_berry_bush",
+	"minecraft:azalea",
+	"minecraft:flowering_azalea",
+	"minecraft:spore_blossom",
+	"minecraft:kelp",
+	"minecraft:kelp_plant",
+	"minecraft:small_dripleaf",
+	"minecraft:big_dripleaf",
+	"minecraft:big_dripleaf_stem",
+	"minecraft:moss_carpet",
+	"minecraft:moss_block",
+	"minecraft:cactus",
+	"minecraft:sugar_cane",
+	"minecraft:bamboo",
+	"minecraft:bamboo_sapling",
+	"minecraft:lily_pad",
+	"minecraft:sea_pickle",
+	"minecraft:vine",
+	"minecraft:cobweb"
+  ]
+}

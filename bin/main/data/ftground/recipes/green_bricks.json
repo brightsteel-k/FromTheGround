@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xcx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "ftground:clay_bricks"
+    },
+	"c":
+    {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result":
+  {
+    "item": "ftground:green_bricks",
+    "count": 8
+  }
+}
