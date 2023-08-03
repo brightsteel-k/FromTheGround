@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:bamboo_jungle_dolerite",
+    "ftground:bamboo_jungle_lamprophyre",
+    "ftground:bamboo_jungle_limestone",
+    "ftground:jungle_granite",
+    "ftground:jungle_dolerite",
+    "ftground:jungle_lamprophyre",
+    "ftground:jungle_limestone",
+    "ftground:jungle_shale"
+  ]
+}

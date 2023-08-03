@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:savanna_granite",
+    "ftground:savanna_shale",
+    "ftground:savanna_plateau_granite",
+    "ftground:savanna_plateau_shale",
+    "ftground:windswept_savanna_granite",
+    "ftground:windswept_savanna_shale"
+  ]
+}

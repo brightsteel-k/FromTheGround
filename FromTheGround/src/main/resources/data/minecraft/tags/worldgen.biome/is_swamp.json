@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:swamp_dolerite",
+    "ftground:swamp_lamprophyre",
+    "ftground:swamp_limestone",
+    "ftground:mangrove_swamp_dolerite",
+    "ftground:mangrove_swamp_lamprophyre",
+    "ftground:mangrove_swamp_limestone"
+  ]
+}

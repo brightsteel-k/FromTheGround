@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_desert",
+    "ftground:warm_ocean_granite",
+    "ftground:warm_ocean_limestone",
+    "ftground:warm_ocean_shale",
+    "#minecraft:is_jungle",
+    "#minecraft:is_savanna",
+    "#minecraft:is_nether",
+    "#minecraft:is_badlands",
+    "ftground:mangrove_swamp_dolerite",
+    "ftground:mangrove_swamp_lamprophyre",
+    "ftground:mangrove_swamp_limestone"
+  ]
+}

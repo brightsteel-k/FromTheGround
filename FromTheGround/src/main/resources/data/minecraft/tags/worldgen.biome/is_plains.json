@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_regular_plains",
+	"ftground:snowy_plains_andesite",
+	"ftground:snowy_plains_diorite",
+	"ftground:sunflower_plains_granite",
+	"ftground:sunflower_plains_lamprophyre",
+	"ftground:sunflower_plains_shale"
+  ]
+}

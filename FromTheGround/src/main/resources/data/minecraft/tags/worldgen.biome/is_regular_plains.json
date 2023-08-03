@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:plains_diorite",
+	"ftground:plains_granite",
+	"ftground:plains_lamprophyre",
+	"ftground:plains_stone"
+  ]
+}

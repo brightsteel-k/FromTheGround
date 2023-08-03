@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:stony_shore_andesite",
+	"ftground:stony_shore_diorite",
+	"ftground:stony_shore_granite",
+	"ftground:stony_shore_dolerite",
+	"ftground:stony_shore_limestone",
+	"ftground:stony_shore_shale",
+	"ftground:stony_shore_stone"
+  ]
+}

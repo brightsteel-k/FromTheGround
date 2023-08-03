@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_badlands",
+    "#minecraft:is_hill",
+    "ftground:savanna_plateau_granite",
+    "ftground:savanna_plateau_shale",
+    "ftground:windswept_savanna_granite",
+    "ftground:windswept_savanna_shale",
+    "#minecraft:is_stony_shore",
+    "#minecraft:is_mountain"
+  ]
+}

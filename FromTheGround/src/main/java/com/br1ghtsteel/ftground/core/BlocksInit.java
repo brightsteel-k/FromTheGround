@@ -1,62 +1,26 @@
 package com.br1ghtsteel.ftground.core;
 
-import java.util.function.ToIntFunction;
-
 import com.br1ghtsteel.ftground.FromTheGround;
-import com.br1ghtsteel.ftground.blocks.BatBoxBlock;
-import com.br1ghtsteel.ftground.blocks.BlastingCapBlock;
-import com.br1ghtsteel.ftground.blocks.BrickBlock;
-import com.br1ghtsteel.ftground.blocks.ChargeBlock;
-import com.br1ghtsteel.ftground.blocks.CobbledStoneBlock;
-import com.br1ghtsteel.ftground.blocks.DeadCropBlock;
-import com.br1ghtsteel.ftground.blocks.DecayingBlock;
-import com.br1ghtsteel.ftground.blocks.DeepOreBlock;
-import com.br1ghtsteel.ftground.blocks.DeepRedstoneOreBlock;
-import com.br1ghtsteel.ftground.blocks.DessicatedFarmBlock;
-import com.br1ghtsteel.ftground.blocks.ExplosiveBlock;
-import com.br1ghtsteel.ftground.blocks.FertilizerBoxBlock;
-import com.br1ghtsteel.ftground.blocks.FlareBlock;
 import com.br1ghtsteel.ftground.blocks.GravelBlock;
-import com.br1ghtsteel.ftground.blocks.GroundFlareBlock;
-import com.br1ghtsteel.ftground.blocks.IrregulatorBlock;
-import com.br1ghtsteel.ftground.blocks.KilnBlock;
-import com.br1ghtsteel.ftground.blocks.MixingStandBlock;
-import com.br1ghtsteel.ftground.blocks.OreBlock;
-import com.br1ghtsteel.ftground.blocks.RedstoneOreBlock;
-import com.br1ghtsteel.ftground.blocks.ResidualOreBlock;
-import com.br1ghtsteel.ftground.blocks.SaltpeterBlock;
-import com.br1ghtsteel.ftground.blocks.StableDetonatorBlock;
-import com.br1ghtsteel.ftground.blocks.StoneBlock;
-import com.br1ghtsteel.ftground.blocks.SulfurFireBlock;
-import com.br1ghtsteel.ftground.blocks.SulfurOreBlock;
-import com.br1ghtsteel.ftground.blocks.SulfurTorchBlock;
-import com.br1ghtsteel.ftground.blocks.SulfurWallTorchBlock;
-import com.br1ghtsteel.ftground.blocks.SulfurousBlock;
-import com.br1ghtsteel.ftground.blocks.WallFlareBlock;
+import com.br1ghtsteel.ftground.blocks.*;
 import com.br1ghtsteel.ftground.util.RockType;
-
+import net.minecraft.core.BlockPos;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.FlowerBlock;
-import net.minecraft.world.level.block.GlassBlock;
-import net.minecraft.world.level.block.LanternBlock;
-import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.core.BlockPos;
-import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.function.ToIntFunction;
 
 public class BlocksInit
 {
@@ -191,10 +155,10 @@ public class BlocksInit
 	}).noOcclusion()));
 	public static final RegistryObject<Block> SULFUR_TORCH = BLOCKS.register("sulfur_torch", () -> new SulfurTorchBlock(BlockBehaviour.Properties.of(Material.DECORATION).noCollission().instabreak().lightLevel((p_50876_) -> {
 	      return 10;
-	   }).sound(SoundType.WOOD), () -> ParticlesInit.SULFUR_FIRE_FLAME.get()));
+	   }).sound(SoundType.WOOD), ParticlesInit.SULFUR_FIRE_FLAME::get));
 	public static final RegistryObject<Block> SULFUR_WALL_TORCH = BLOCKS.register("sulfur_wall_torch", () -> new SulfurWallTorchBlock(BlockBehaviour.Properties.of(Material.DECORATION).noCollission().instabreak().lightLevel((light) -> {
 		return 11;
-	}).sound(SoundType.WOOD).lootFrom(() -> SULFUR_TORCH.get()), () -> ParticlesInit.SULFUR_FIRE_FLAME.get()));
+	}).sound(SoundType.WOOD).lootFrom(SULFUR_TORCH::get), ParticlesInit.SULFUR_FIRE_FLAME::get));
 	
 	public static final RegistryObject<Block> FLARE = BLOCKS.register("flare", () -> new FlareBlock(BlockBehaviour.Properties.of(Material.DECORATION).noCollission().instabreak().lightLevel((light) -> {
 		return 14;

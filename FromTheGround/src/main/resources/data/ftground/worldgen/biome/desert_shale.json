@@ -57,10 +57,12 @@
       "ftground:ore_lapis",
       "ftground:ore_lapis_buried",
       "ftground:ore_copper",
+      "ftground:ore_bitumen",
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "ftground:disk_gravel"
+      "ftground:disk_gravel_shale",
+      "ftground:gravel_sulfur"
     ],
     [],
     [

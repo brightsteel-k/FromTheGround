@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:desert_granite",
+	"ftground:desert_limestone",
+	"ftground:desert_shale",
+	"ftground:desert_stone"
+  ]
+}

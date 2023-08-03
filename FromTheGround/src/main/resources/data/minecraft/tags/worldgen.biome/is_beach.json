@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:beach_diorite",
+    "ftground:beach_limestone",
+    "ftground:beach_shale",
+    "ftground:snowy_beach_andesite",
+    "ftground:snowy_beach_diorite",
+    "ftground:snowy_beach_stone"
+  ]
+}

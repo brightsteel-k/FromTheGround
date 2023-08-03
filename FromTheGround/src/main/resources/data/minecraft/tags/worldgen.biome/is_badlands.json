@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:badlands_granite",
+    "ftground:badlands_lamprophyre",
+    "ftground:badlands_shale",
+    "ftground:eroded_badlands_granite",
+    "ftground:eroded_badlands_lamprophyre",
+    "ftground:eroded_badlands_shale",
+    "ftground:wooded_badlands_granite",
+    "ftground:wooded_badlands_lamprophyre",
+    "ftground:wooded_badlands_shale"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:meadow_diorite",
+    "ftground:meadow_lamprophyre",
+    "ftground:meadow_stone",
+    "ftground:frozen_peaks_andesite",
+    "ftground:frozen_peaks_diorite",
+    "ftground:frozen_peaks_stone",
+    "ftground:jagged_peaks_diorite",
+    "ftground:jagged_peaks_granite",
+    "ftground:jagged_peaks_lamprophyre",
+    "ftground:jagged_peaks_shale",
+    "ftground:jagged_peaks_stone",
+    "ftground:stony_peaks_andesite",
+    "ftground:stony_peaks_diorite",
+    "ftground:stony_peaks_granite",
+    "ftground:stony_peaks_dolerite",
+    "ftground:stony_peaks_limestone",
+    "ftground:stony_peaks_shale",
+    "ftground:stony_peaks_stone",
+    "ftground:snowy_slopes_andesite",
+    "ftground:snowy_slopes_diorite",
+    "ftground:snowy_slopes_stone"
+  ]
+}

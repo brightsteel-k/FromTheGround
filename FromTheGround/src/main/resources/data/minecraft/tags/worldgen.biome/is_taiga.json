@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:taiga_dolerite",
+    "ftground:taiga_lamprophyre",
+    "ftground:taiga_limestone",
+    "ftground:snowy_taiga_andesite",
+    "ftground:snowy_taiga_dolerite",
+    "ftground:snowy_taiga_lamprophyre",
+    "ftground:old_growth_pine_taiga_granite",
+    "ftground:old_growth_pine_taiga_dolerite",
+    "ftground:old_growth_pine_taiga_lamprophyre",
+    "ftground:old_growth_spruce_taiga_granite",
+    "ftground:old_growth_spruce_taiga_dolerite",
+    "ftground:old_growth_spruce_taiga_lamprophyre"
+  ]
+}

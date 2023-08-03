@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:windswept_hills_diorite",
+    "ftground:windswept_hills_granite",
+    "ftground:windswept_hills_dolerite",
+    "ftground:windswept_hills_limestone",
+    "ftground:windswept_hills_shale",
+    "ftground:windswept_hills_stone",
+    "ftground:windswept_forest_dolerite",
+    "ftground:windswept_forest_limestone",
+    "ftground:windswept_forest_shale",
+    "ftground:windswept_forest_stone",
+    "ftground:windswept_gravelly_hills_andesite",
+    "ftground:windswept_gravelly_hills_diorite",
+    "ftground:windswept_gravelly_hills_granite",
+    "ftground:windswept_gravelly_hills_dolerite",
+    "ftground:windswept_gravelly_hills_lamprophyre",
+    "ftground:windswept_gravelly_hills_limestone",
+    "ftground:windswept_gravelly_hills_shale",
+    "ftground:windswept_gravelly_hills_stone"
+  ]
+}

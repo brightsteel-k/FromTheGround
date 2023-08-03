@@ -5,9 +5,6 @@ import com.br1ghtsteel.ftground.commands.DessicateCommand;
 import com.br1ghtsteel.ftground.fluids.fluid_types.MoltenSaltpeterFluidType;
 import com.br1ghtsteel.ftground.util.EntityModifications;
 import com.br1ghtsteel.ftground.util.PlantDessication;
-
-import net.minecraft.client.Minecraft;
-import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.monster.WitherSkeleton;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
@@ -41,9 +38,6 @@ public final class ForgeEvents {
 		}
 
 		if (level.getRandom().nextFloat() <= 0.001f) {
-			BlockPos blockpos = event.getPos();
-			Minecraft.getInstance().player.chat("OnCropGrows event triggered at: " + blockpos.getX() + ", "
-					+ blockpos.getY() + ", " + blockpos.getZ()); // TODO:DEBUG
 			PlantDessication.onPlantGrows(event.getState(), level, event.getPos());
 		}
 	}
@@ -57,5 +51,5 @@ public final class ForgeEvents {
 	@SubscribeEvent
 	public static void onEntityUpdate(LivingTickEvent e) {
 		MoltenSaltpeterFluidType.checkBurnEntity(e.getEntity());
-	}
+	} 
 }

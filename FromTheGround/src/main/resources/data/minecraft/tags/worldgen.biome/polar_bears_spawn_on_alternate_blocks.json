@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:frozen_ocean_andesite",
+    "ftground:frozen_ocean_dolerite",
+    "ftground:deep_frozen_ocean_andesite"
+  ]
+}

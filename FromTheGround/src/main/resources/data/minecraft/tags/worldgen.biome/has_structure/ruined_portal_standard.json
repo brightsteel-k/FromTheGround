@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_beach",
+    "#minecraft:is_river",
+    "#minecraft:is_taiga",
+    "#minecraft:is_forest",
+    "#minecraft:is_plains",
+    "ftground:mushroom_fields_diorite",
+    "ftground:mushroom_fields_stone",
+    "ftground:ice_spikes_andesite",
+    "ftground:ice_spikes_diorite",
+    "ftground:dripstone_caves_granite",
+    "ftground:dripstone_caves_lamprophyre",
+    "ftground:lush_caves_limestone",
+    "ftground:lush_caves_stone",
+    "ftground:savanna_granite",
+    "ftground:savanna_shale"
+  ]
+}

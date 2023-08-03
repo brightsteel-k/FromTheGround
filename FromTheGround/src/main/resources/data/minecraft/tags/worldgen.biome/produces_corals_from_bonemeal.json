@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:warm_ocean_granite",
+    "ftground:warm_ocean_limestone",
+    "ftground:warm_ocean_shale"
+  ]
+}

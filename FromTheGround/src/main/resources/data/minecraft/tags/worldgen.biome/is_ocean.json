@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_deep_ocean",
+    "ftground:frozen_ocean_andesite",
+    "ftground:frozen_ocean_dolerite",
+    "ftground:ocean_andesite",
+    "ftground:ocean_stone",
+    "ftground:cold_ocean_andesite",
+    "ftground:cold_ocean_diorite",
+    "ftground:lukewarm_ocean_granite",
+    "ftground:lukewarm_ocean_shale",
+    "ftground:warm_ocean_granite",
+    "ftground:warm_ocean_limestone",
+    "ftground:warm_ocean_shale"
+  ]
+}

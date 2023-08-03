@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:river_dolerite",
+    "ftground:river_lamprophyre",
+    "ftground:river_limestone",
+    "ftground:river_stone",
+    "ftground:frozen_river_andesite",
+    "ftground:frozen_river_diorite"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:snowy_taiga_andesite",
+    "ftground:snowy_taiga_dolerite",
+    "ftground:snowy_taiga_lamprophyre",
+    "ftground:snowy_plains_andesite",
+    "ftground:snowy_plains_diorite",
+    "ftground:snowy_slopes_andesite",
+    "ftground:snowy_slopes_diorite",
+    "ftground:snowy_slopes_stone"
+  ]
+}

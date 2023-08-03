@@ -1,13 +1,8 @@
 package com.br1ghtsteel.ftground.util;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 import com.br1ghtsteel.ftground.blocks.FertilizerBoxBlock;
 import com.br1ghtsteel.ftground.core.BlocksInit;
 import com.br1ghtsteel.ftground.tags.FTGBlockTags;
-
-import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.BlockTags;
@@ -16,16 +11,16 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class PlantDessication {
 
 	public static final int MAX_FARMLAND_BLOCKS = 24;
 	public static final int FERTILIZER_BOX_RANGE = 8;
 
 	public static void onPlantGrows(BlockState blockstate, LevelAccessor level, BlockPos blockpos) {
-		if (checkDessication(level, blockpos.below(), Direction.DOWN, new LinkedList<>(), new LinkedList<>(),
-				new LinkedList<>(), new LinkedList<>())) {
-			Minecraft.getInstance().player.chat("DESSICATED"); // TODO:DEBUG
-		}
+		checkDessication(level, blockpos.below(), Direction.DOWN, new LinkedList<>(), new LinkedList<>(), new LinkedList<>(), new LinkedList<>());
 	}
 
 	public static boolean checkDessication(LevelAccessor level, BlockPos blockpos, Direction dir,

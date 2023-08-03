@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:forest_diorite",
+    "ftground:forest_lamprophyre",
+    "ftground:forest_limestone",
+    "ftground:forest_stone",
+    "ftground:flower_forest_diorite",
+    "ftground:flower_forest_limestone",
+    "ftground:flower_forest_stone",
+    "ftground:birch_forest_diorite",
+    "ftground:birch_forest_dolerite",
+    "ftground:birch_forest_limestone",
+    "ftground:old_growth_birch_forest_diorite",
+    "ftground:old_growth_birch_forest_stone",
+    "ftground:dark_forest_dolerite",
+    "ftground:dark_forest_lamprophyre",
+    "ftground:dark_forest_stone",
+    "ftground:grove_dolerite",
+    "ftground:grove_limestone",
+    "ftground:grove_stone"
+  ]
+}

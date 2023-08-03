@@ -1,20 +1,11 @@
 package com.br1ghtsteel.ftground.util;
 
-import java.util.AbstractMap;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.commons.compress.utils.Lists;
-
 import com.br1ghtsteel.ftground.FromTheGround;
 import com.br1ghtsteel.ftground.core.BlocksInit;
 import com.br1ghtsteel.ftground.core.EffectsInit;
 import com.br1ghtsteel.ftground.core.ItemsInit;
 import com.br1ghtsteel.ftground.tags.FTGBlockTags;
 import com.mojang.datafixers.util.Pair;
-
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.CommonComponents;
@@ -33,6 +24,9 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
+import org.apache.commons.compress.utils.Lists;
+
+import java.util.*;
 
 public class MixingUtil {
 

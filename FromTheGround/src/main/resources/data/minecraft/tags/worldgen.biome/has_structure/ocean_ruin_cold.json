@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "ftground:frozen_ocean_andesite",
+    "ftground:frozen_ocean_dolerite",
+    "ftground:cold_ocean_andesite",
+    "ftground:cold_ocean_diorite",
+    "ftground:ocean_andesite",
+    "ftground:ocean_stone",
+    "ftground:deep_frozen_ocean_andesite",
+    "ftground:deep_cold_ocean_andesite",
+    "ftground:deep_cold_ocean_dolerite",
+    "ftground:deep_ocean_andesite",
+    "ftground:deep_ocean_diorite"
+  ]
+}
