@@ -43,7 +43,7 @@
 - Bitumen can be crafted with coal to produce bituminous coal, which can cook 12 items each. These can be further crafted into bituminous coal blocks, which can cook 120 items each.
 - 4 bitumen can be crafted into a tar ball, which can replace slime balls in common vanilla recipes.
 
-# Farming
+##  Farming
 - Plants growing from a very large field of farmland has a small chance of causing a dessication event. This converts farmland around the block to dessicated farmland, which can no longer support live crops.
 - Using saltpeter on dessicated farmland rejuvenates it.
 - To prevent dessication events, players can craft a fertilizer box with wooden slabs and sticks. This unique farming block can only be placed on farmland, and its model reflects the amount of saltpeter within it. Saltpeter can be added to the fertilizer box by right-clicking it with saltpeter in your main or offhand. If a dessication event were to occur in a range around the fertilizer block and there is saltpeter within the fertilizer box, the level of the fertilizer box will instead be decremented by 1.
